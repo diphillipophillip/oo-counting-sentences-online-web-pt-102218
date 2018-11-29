@@ -19,6 +19,7 @@ class String
       new = self.split(/[.!?]/)
       newish = new.reject { |i| i.nil? || i == ''}
       newish.length
+      binding.pry
    end 
       
  end 
